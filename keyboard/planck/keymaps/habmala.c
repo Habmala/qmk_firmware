@@ -60,14 +60,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |------+------+------+------+------+------|------+------+------+------+------+------|
  * | Shift|   <  |      |      |      |   0  |   1  |   2  |   3  |   ¨  |      |      |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
- * | Ctrl |      | Mod4 | Alt  |      |             |Raise |      |      |      |      |
+ * | Ctrl |      | Mod4 | Alt  |      |             |Raise |AltGr |      |      |      |
  * `-----------------------------------------------------------------------------------'
  */
 [_RS] = {
   {KC_BSPC,  KC_R,     XXXXXXX, XXXXXXX, XXXXXXX, KC_MINUS, KC_7,    KC_8,    KC_9,    KC_SLSH,  XXXXXXX,     KC_DEL},
   {KC_ESC,   XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX, KC_NUHS,  KC_4,    KC_5,    KC_6,    KC_EQL,   KC_PLUS,     XXXXXXX},
   {KC_LSFT,  KC_NUBS,  XXXXXXX, XXXXXXX, XXXXXXX, KC_0,     KC_1,    KC_2,    KC_3,    KC_RBRC,  XXXXXXX,     XXXXXXX},
-  {KC_LCTL,  XXXXXXX,  KC_LGUI, KC_LALT, XXXXXXX, XXXXXXX,  XXXXXXX, MO(_RS), XXXXXXX, XXXXXXX,  XXXXXXX,     XXXXXXX}
+  {KC_LCTL,  XXXXXXX,  KC_LGUI, KC_LALT, XXXXXXX, XXXXXXX,  XXXXXXX, MO(_RS), KC_RALT, XXXXXXX,  XXXXXXX,     XXXXXXX}
 },
 /* Lowered
  * ,-----------------------------------------------------------------------------------.
